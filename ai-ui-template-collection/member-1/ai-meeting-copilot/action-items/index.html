@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Convert meeting decisions into owners, due dates, and follow-up tasks."><title>AI Meeting Copilot · Action Items</title>
+<link rel="stylesheet" href="style.css"></head>
+<body style="--accent:#8b5cf6">
+<div class="app-shell">
+<aside class="sidebar">
+<div class="brand"><span class="brand-mark">✦</span><div><b>AI Meeting Copilot</b><small>AI workspace</small></div></div>
+<div class="workspace-switcher">Workspace <span>⌄</span></div>
+<nav class="nav"><a class="nav-link " href="../dashboard/index.html">Dashboard</a><a class="nav-link " href="../live-notes/index.html">Live Notes</a><a class="nav-link active" href="../action-items/index.html">Action Items</a><a class="nav-link " href="../summary/index.html">Summary</a></nav>
+<div class="sidebar-bottom"><button class="mini-btn" id="themeBtn">◐ Theme</button><a class="user-card" href="#"><span class="avatar">K</span><span><b>Keerthana</b><small>Admin</small></span></a></div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="mobile-brand"><span class="brand-mark">✦</span>AI Meeting Copilot</div>
+<div class="top-actions"><label class="search"><span>⌕</span><input id="globalSearch" placeholder="Search workspace..."></label><button class="icon-btn" id="notifyBtn">◔</button><button class="avatar avatar-top">K</button></div></header>
+<section class="content">
+<div class="breadcrumb">Workspace <span>/</span> Action Items</div>
+<div class="hero"><div><span class="eyebrow">AI PRODUCT TEMPLATE</span><h1>Action item tracker</h1><p>Convert meeting decisions into owners, due dates, and follow-up tasks.</p></div><button class="primary" id="primaryBtn">+ Create new</button></div>
+<div class="metrics"><article class="metric-card"><span class="metric-icon">✦</span><div><strong>AI tasks today</strong><small>AI-assisted workspace signal</small></div></article><article class="metric-card"><span class="metric-icon">✦</span><div><strong>Active projects</strong><small>AI-assisted workspace signal</small></div></article><article class="metric-card"><span class="metric-icon">✦</span><div><strong>Saved items</strong><small>AI-assisted workspace signal</small></div></article><article class="metric-card"><span class="metric-icon">✦</span><div><strong>Automation status</strong><small>AI-assisted workspace signal</small></div></article></div>
+<section class="workspace-card"><div class="card-head"><div><h2>Live workspace</h2><p>Interactive demo area for this template.</p></div><span class="status"><i></i> All systems ready</span></div>
+<div class="demo-grid"><div class="panel"><div class="panel-title"><span>AI assistant</span><span class="muted">Online</span></div>
+<div class="chat-window" id="chatWindow"><div class="message ai">Hi Keerthana! I’m ready to help with action items. What would you like to do?</div>
+<div class="message user">Show me the most important next step.</div><div class="message ai">Start with the highest-priority item, review the AI suggestion, then confirm it before applying the change.</div></div>
+<div class="composer"><input id="promptInput" placeholder="Ask the AI something..."><button class="primary small" id="sendBtn">Send</button></div></div>
+<div class="panel"><div class="panel-title"><span>Recent activity</span><button class="text-btn" id="clearBtn">Clear</button></div>
+<div class="activity-list"><div><b>AI analysis completed</b><small>2 minutes ago</small></div><div><b>New workspace item created</b><small>18 minutes ago</small></div><div><b>Team member reviewed output</b><small>42 minutes ago</small></div><div><b>Preferences updated</b><small>Today</small></div></div></div></div></section>
+<section class="table-card"><div class="card-head"><div><h2>Recent items</h2><p>Sample product data for the UI template.</p></div><button class="ghost" id="exportBtn">Export</button></div>
+<div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Owner</th><th>Updated</th><th></th></tr></thead><tbody>
+<tr><td>AI workspace draft</td><td><span class="pill green">Active</span></td><td>Keerthana</td><td>2 min ago</td><td><button class="dots">•••</button></td></tr>
+<tr><td>Automation review</td><td><span class="pill amber">Review</span></td><td>Team</td><td>24 min ago</td><td><button class="dots">•••</button></td></tr>
+<tr><td>Saved AI insight</td><td><span class="pill blue">Saved</span></td><td>Keerthana</td><td>1 hr ago</td><td><button class="dots">•••</button></td></tr>
+</tbody></table></div></section>
+</section></main></div>
+<div class="toast" id="toast">Action completed successfully.</div>
+<script src="script.js"></script></body></html>
