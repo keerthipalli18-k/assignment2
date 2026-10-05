@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotels | Hotel Reservation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="../home/index.html">Wander<span>ly</span></a>
+  <nav><a href="../home/index.html">Home</a><a href="../hotels/index.html">Hotels</a><a href="../hotel-details/index.html">Hotel Details</a><a href="../checkout/index.html">Checkout</a></nav>
+  <button class="icon-btn" id="menuBtn">☰</button>
+</header>
+<main><section class="page-head"><span class="eyebrow">DISCOVER</span><h1>Hotels</h1><p>Browse curated options and choose what fits your travel style.</p></section>
+<div class="toolbar"><input id="searchBox" placeholder="Search options..." /><select id="sortBox"><option>Recommended</option><option>Price: Low to High</option></select></div>
+<section class="cards"><article class="card searchable"><div class="thumb">🏝️</div><h3>Goa</h3><p>From ₹4,999 • Flexible plans</p><button class="outline" data-toast="Goa added to shortlist">Select</button></article><article class="card searchable"><div class="thumb">🏔️</div><h3>Manali</h3><p>From ₹6,499 • Flexible plans</p><button class="outline" data-toast="Manali added to shortlist">Select</button></article><article class="card searchable"><div class="thumb">🏰</div><h3>Jaipur</h3><p>From ₹3,999 • Flexible plans</p><button class="outline" data-toast="Jaipur added to shortlist">Select</button></article><article class="card searchable"><div class="thumb">🏙️</div><h3>Dubai</h3><p>From ₹18,999 • Flexible plans</p><button class="outline" data-toast="Dubai added to shortlist">Select</button></article><article class="card searchable"><div class="thumb">🌴</div><h3>Bali</h3><p>From ₹22,999 • Flexible plans</p><button class="outline" data-toast="Bali added to shortlist">Select</button></article><article class="card searchable"><div class="thumb">🌿</div><h3>Kerala</h3><p>From ₹7,999 • Flexible plans</p><button class="outline" data-toast="Kerala added to shortlist">Select</button></article></section></main>
+<div class="toast" id="toast"></div>
+<footer><strong>Wanderly</strong><span>Travel smarter. Experience more.</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>

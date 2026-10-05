@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout | Hotel Reservation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="../home/index.html">Wander<span>ly</span></a>
+  <nav><a href="../home/index.html">Home</a><a href="../hotels/index.html">Hotels</a><a href="../hotel-details/index.html">Hotel Details</a><a href="../checkout/index.html">Checkout</a></nav>
+  <button class="icon-btn" id="menuBtn">☰</button>
+</header>
+<main><section class="page-head"><span class="eyebrow">SECURE CHECKOUT</span><h1>Complete your booking</h1><p>Review your trip and enter payment details.</p></section>
+<div class="checkout-grid"><div class="form-card"><h2>Payment</h2><label>Card number<input required inputmode="numeric" placeholder="1234 5678 9012 3456"></label><div class="two"><label>Expiry<input required placeholder="MM/YY"></label><label>CVV<input required placeholder="123"></label></div><button class="primary" id="payBtn">Pay securely</button></div>
+<div class="summary"><h2>Trip summary</h2><p>Selected package</p><strong>₹7,499</strong><hr><p>Taxes & fees</p><strong>₹899</strong><hr><p>Total</p><h2>₹8,398</h2></div></div></main>
+<div class="toast" id="toast"></div>
+<footer><strong>Wanderly</strong><span>Travel smarter. Experience more.</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
