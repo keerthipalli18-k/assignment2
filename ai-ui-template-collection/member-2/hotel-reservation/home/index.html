@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Hotel Reservation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="../home/index.html">Wander<span>ly</span></a>
+  <nav><a href="../home/index.html">Home</a><a href="../hotels/index.html">Hotels</a><a href="../hotel-details/index.html">Hotel Details</a><a href="../checkout/index.html">Checkout</a></nav>
+  <button class="icon-btn" id="menuBtn">☰</button>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <span class="eyebrow">EXPLORE • PLAN • EXPERIENCE</span>
+    <h1>Make your next <span>journey unforgettable.</span></h1>
+    <p>Discover beautiful destinations, comfortable stays and experiences made for curious travellers.</p>
+    <button class="primary" data-action="explore">Explore now</button>
+  </div>
+  <div class="hero-card"><div class="hero-image">✈️</div><strong>Weekend escape</strong><span>From ₹4,999</span></div>
+</section>
+<section class="section"><div class="section-head"><h2>Popular picks</h2><span>Handpicked for you</span></div>
+<div class="cards">
+  <article class="card"><div class="thumb">🏝️</div><h3>Goa</h3><p>Beaches • 3 nights</p><button class="outline" data-toast="Goa selected">View trip</button></article>
+  <article class="card"><div class="thumb">🏔️</div><h3>Manali</h3><p>Mountains • 4 nights</p><button class="outline" data-toast="Manali selected">View trip</button></article>
+  <article class="card"><div class="thumb">🏙️</div><h3>Dubai</h3><p>City break • 5 nights</p><button class="outline" data-toast="Dubai selected">View trip</button></article>
+</div></section>
+</main>
+<div class="toast" id="toast"></div>
+<footer><strong>Wanderly</strong><span>Travel smarter. Experience more.</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
