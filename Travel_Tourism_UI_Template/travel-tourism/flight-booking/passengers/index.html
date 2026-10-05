@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passengers | Flight Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="../home/index.html">Wander<span>ly</span></a>
+  <nav><a href="../home/index.html">Home</a><a href="../search-flights/index.html">Search Flights</a><a href="../flight-details/index.html">Flight Details</a><a href="../confirmation/index.html">Confirmation</a></nav>
+  <button class="icon-btn" id="menuBtn">☰</button>
+</header>
+<main><section class="page-head"><span class="eyebrow">STEP 4 OF 7</span><h1>Passengers</h1><p>Enter the details below to continue your reservation.</p></section>
+<form class="form-card" id="mainForm">
+<label>Full name<input required placeholder="Enter your name"></label>
+<label>Email<input required type="email" placeholder="you@example.com"></label>
+<label>Travel date<input required type="date"></label>
+<label>Travellers<select required><option>1 traveller</option><option>2 travellers</option><option>3 travellers</option><option>4+ travellers</option></select></label>
+<button class="primary" type="submit">Continue</button>
+</form></main>
+<div class="toast" id="toast"></div>
+<footer><strong>Wanderly</strong><span>Travel smarter. Experience more.</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
